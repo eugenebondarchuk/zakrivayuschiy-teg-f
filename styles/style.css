@@ -82,6 +82,7 @@
   text-align: left;
   position: relative;
   cursor: pointer;
+  transition: opacity 0.3s ease, width 0.3s ease;
 }
 
 .theme-menu__button:disabled {
@@ -99,13 +100,11 @@
 
 .theme-menu__button:hover {
   opacity: 60%;
-  transition: opacity 0.3s ease;
 }
 
 .theme-menu__button:focus {
   outline: none;
   opacity: 60%;
-  transition: opacity 0.3s ease;
 }
 
 .theme-menu__button::after {
@@ -121,7 +120,6 @@
 
 .theme-menu__button:focus-visible::after {
   width: 100%;
-  transition: width 0.3s ease;
 }
 
 .content__list {
