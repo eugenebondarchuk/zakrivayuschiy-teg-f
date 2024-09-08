@@ -12,9 +12,7 @@
         linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
     --bg-color: #FFFFFF;
     --main-color: #000000;
-    --headings-font: 'Press Start 2P';
     --headings-font-weight: 700;
-    --text-font: 'Inter';
     --text-font-weight: 400;
     --tag-color: var(--main-color);
     --tag-shadow: var(--bg-color);
@@ -30,9 +28,7 @@
         linear-gradient(180deg, #007f0c 0%, #004306 100%);
     --bg-color: #000000;
     --main-color: #00CC14;
-    --headings-font: 'Press Start 2P';
     --headings-font-weight: 785;
-    --text-font: 'Inter';
     --text-font-weight: 465;
     --tag-color: var(--main-color);
     --tag-shadow: var(--bg-color);
@@ -49,9 +45,7 @@
             linear-gradient(180deg, #007f0c 0%, #004306 100%);
         --bg-color: #000000;
         --main-color: #00CC14;
-        --headings-font: 'Press Start 2P';
         --headings-font-weight: 785;
-        --text-font: 'Inter';
         --text-font-weight: 465;
         --tag-color: var(--main-color);
         --tag-shadow: var(--bg-color);
