@@ -209,6 +209,7 @@
   border: 2px solid transparent;
   cursor: pointer;
   height: 38px;
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -217,7 +218,6 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--main-color);
-  transition: border 0.3s ease;
 }
 
 .card__like-image {
@@ -239,12 +239,12 @@
   line-height: 12.6px;
 	cursor: pointer;
   position: relative;
+  transition: box-shadow 0.3s ease, width 0.5s ease-in-out;
 }
 
 .content__button:focus {
   outline: none;
   box-shadow: 2px 2px 0 0 var(--main-color);
-  transition: box-shadow 0.3s ease;
 }
 
 .content__button::before {
@@ -261,7 +261,6 @@
 
 .content__button:hover::before {
   width: 100%;
-  transition: width 0.5s ease-in-out;
 }
 
 .card__like-button {
