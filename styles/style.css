@@ -168,6 +168,7 @@
   color: var(--tag-color);
   text-shadow: 1px 1px var(--tag-shadow);
   opacity: 50%;
+  mix-blend-mode: hard-light;
 }
 
 @supports((text-stroke: 1px var(--tag-shadow)) or (-webkit-text-stroke: 1px var(--tag-shadow))) {
